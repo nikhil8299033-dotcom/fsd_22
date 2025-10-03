@@ -1,13 +1,24 @@
-*{
-    background-color: yellowgreen;
-    padding: 0px;
-    margin: 0px;
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.box{
-    height:200px;
-
-  width:200px;
-  background-color: blue;
-
+body {
+  background-color: aliceblue;
+}
+ul {
+  padding: 10px;
+  background-color: blueviolet;
+  text-align: right;
+}
+li {
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: whitesmoke;
+  font-weight: 800;
+  padding: 10px;
 }
